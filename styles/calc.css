@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', Helvetica, monospace;
+}
+
+.heading {
+  margin-top: 3px;
+}
+
+.container {
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 400px;
+  height: 560px;
+  background-color: peru;
+  align-items: center;
+}
+
+input {
+  text-align: right;
+  margin-top: 25px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  width: 375px;
+  height: 43px;
+}
+
+#noice {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: peru;
+}
+
+.mtn {
+  width: 30px;
+  height: 30px;
+  margin-top: 45px;
+  margin-left: 20px;
+  padding: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.mtn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.inputBox {
+  width: 400px;
+  background-color: peru;
+}
+
+h2 {
+  background-color: peru;
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #41b3a3;
+}
+
+h2 {
+  font-size: 70px;
+  color: #fc4445;
+}
+
+/*   #e27d60   #de354c   #1f3      #9ca       #f3f3f3     */
+
+.container {
+  text-align: center;
+  margin-top: 250px;
+}
+
+a.calc {
+  padding: 6px 20px;
+  border: 2px solid white;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.but {
+  margin-top: 250px;
+  margin-right: 30px;
+  float: right;
+}
+
+a.calc:hover {
+  color: #fc4445;
+  background-color: white;
+}

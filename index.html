@@ -4,50 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Tamton Aquib</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="styles/index.css" type="text/css">
 </head>
 
 <body>
-  <style>
-    * {
-      margin: 0px;
-      padding: 0px;
-      background-color: #41b3a3;
-    }
-
-    h2 {
-      font-size: 70px;
-      color: #fc4445;
-    }
-
-    /*   #e27d60   #de354c   #1f3      #9ca       #f3f3f3     */
-
-    .container {
-      text-align: center;
-      margin-top: 250px;
-    }
-  </style>
 
   <div class="container">
     <h2 id="text"></h2>
   </div>
+  <div class="but">
+    <ul>
+      <li>
+        <a href="calc.html" class="calc">Calc</a>
+      </li>
+    </ul>
+  </div>
 
-  <script>
-    let h2 = document.getElementById('text');
-
-    let str = `Welcome-aboard!`;
-
-    for (let i = 0; i < str.length; i++) {
-      let letter = str[i];
-      if (letter == '-') {
-        letter = ' ';
-      }
-      setTimeout(function () {
-        h2.innerText += letter;
-
-      }, i * 100);
-    }
-  </script>
+  <script src="assets/index.js"></script>
 
 </body>
 
