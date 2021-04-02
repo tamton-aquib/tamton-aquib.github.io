@@ -51,7 +51,7 @@ document.addEventListener('click', (e) => {
         if (count == 0)
             currentInputvalue = currentInputvalue;
 
-        if (!op || !count || !answer) {
+        if (!op || !count || answer == undefined) {
             console.log("only binary numbers supported for now!");
             return;
         }
