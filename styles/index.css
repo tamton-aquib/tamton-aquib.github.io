@@ -7,14 +7,9 @@
   font-family: 'Fira Code', monospace;
 }
 
-h2 {
-  font-size: 70px;
-  color: #fc4445;
-}
-
 .but {
     margin: 30px 30px;
-    position: fixed;
+    position: relative;
     cursor: pointer;
     user-select: none;
 }
@@ -53,23 +48,31 @@ h2 {
     text-decoration: none;
 }
 
+.calc:hover {
+    color: #fc4445;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .list {
     margin-left: 100px;
     margin-top: -50px;
 }
 
 
-.container {
-    position: absolute;
-    margin: 250px 300px;
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-.calc:hover {
+h2 {
+    font-size: 70px;
     color: #fc4445;
-    background-color: white;
+    display: grid;
+    justify-content: center;
 }
+
+
+.container {
+    margin-top: 200px;
+}
+
+
