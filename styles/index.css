@@ -20,13 +20,7 @@
     background-color: black;
     margin: 6px 0;
 }
-.navbar {
-    transition: transform 0.5s;
-}
 
-.navbar:hover {
-    transform: scale(1.1);
-}
 .cross {
     display: none;
     margin-top: -20px;
