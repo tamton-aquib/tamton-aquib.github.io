@@ -1,4 +1,4 @@
-/*   #e27d60   #de354c   #1f3      #9ca       #f3f3f3     */
+/*   #e27d60   #de354c #41b3a3  #1f3      #9ca       #f3f3f3     */
 
 * {
   margin: 0px;
@@ -14,27 +14,63 @@ h2 {
 
 .but {
     margin: 30px 30px;
+    position: fixed;
+    cursor: pointer;
+    user-select: none;
 }
 
-.container {
-  text-align: center;
-  margin-top: 150px;
+.nav {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.navbar {
+    transition: transform 0.5s;
+}
+
+.navbar:hover {
+    transform: scale(1.1);
+}
+.cross {
+    display: none;
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 1000;
+    transition: transform 0.5s;
+}
+.cross:hover {
+    transition: transform 0.5s;
 }
 
 .calc {
-  padding: 6px 20px;
-  border: 2px solid white;
-  border-radius: 5px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+    display: none;
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
+.list {
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+
+.container {
+    position: absolute;
+    display: grid;
+    margin: 250px 300px;
+}
+
+
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .calc:hover {
-  color: #fc4445;
-  background-color: white;
+    color: #fc4445;
+    background-color: white;
 }
