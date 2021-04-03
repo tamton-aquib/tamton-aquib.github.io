@@ -61,7 +61,6 @@ h2 {
 
 .container {
     position: absolute;
-    display: grid;
     margin: 250px 300px;
 }
 
