@@ -3,4 +3,4 @@
 
 ### **Click on this emoji ==>   [🏗️](https://tamton-aquib.github.io/)   <=**
 
-PS: The UI work on the calc.html was from: [@mhdafh7](https://github.com/mhdafh7)
+PS: The UI work on calc.html was done by: [@mhdafh7](https://github.com/mhdafh7)
