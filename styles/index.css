@@ -44,7 +44,6 @@
     text-align: center;
     text-decoration: none;
 }
-
 .calc:hover {
     color: #fc4445;
     background-color: white;
@@ -59,14 +58,12 @@ ul {
     margin-top: -50px;
 }
 
-
 h2 {
     font-size: 70px;
     color: #fc4445;
     display: grid;
     justify-content: center;
 }
-
 
 .container {
     margin-top: 200px;

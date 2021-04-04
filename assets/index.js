@@ -16,19 +16,18 @@ for (let i = 0; i < str.length; i++) {
 
 const menu = document.querySelector('.but');
 const nav = document.querySelector('.nav');
-const hiddenList = document.querySelector('.cross');
+const cross = document.querySelector('.cross');
 const calcBtn = document.querySelector('.calc');
 const navbar = document.querySelector('.navbar');
 
 navbar.addEventListener('click', (e) => {
-    hiddenList.style.display = "block";
+    cross.style.display = "block";
     calcBtn.style.display = "inline";
     navbar.style.display = "none";
-    console.log("Noice");
 });
 
-hiddenList.addEventListener('click', (e) => {
-    hiddenList.style.display = "none";
+cross.addEventListener('click', (e) => {
+    cross.style.display = "none";
     calcBtn.style.display = "none";
     nav.style.display = "block";
     navbar.style.display = "block";
