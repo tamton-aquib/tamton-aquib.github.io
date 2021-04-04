@@ -20,12 +20,15 @@
     height: 5px;
     background-color: black;
     margin: 6px 0;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-out;
 }
 .navbar {
-    transition: transform 0.5s, margin-left 0.5s;
+    transition: transform 0.5s;
 }
-.navbar:hover {
+.navbar:hover .nav {
     transform: scale(1.1);
+    background-color: white;
 }
 
 .cross {
