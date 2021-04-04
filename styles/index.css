@@ -8,8 +8,9 @@
 }
 
 .but {
-    margin: 30px 30px;
-    position: relative;
+    position: fixed;
+    margin-top: -170px;
+    margin-left: 50px;
     cursor: pointer;
     user-select: none;
 }
@@ -20,16 +21,18 @@
     background-color: black;
     margin: 6px 0;
 }
+.navbar {
+    transition: transform 0.5s, margin-left 0.5s;
+}
+.navbar:hover {
+    transform: scale(1.1);
+}
 
 .cross {
     display: none;
     margin-top: -20px;
     font-size: 60px;
     font-weight: 1000;
-    transition: transform 0.5s;
-}
-.cross:hover {
-    transition: transform 0.5s;
 }
 
 .calc {
