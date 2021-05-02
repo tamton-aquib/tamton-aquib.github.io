@@ -1,75 +1,63 @@
-/*   #e27d60   #de354c #41b3a3  #1f3      #9ca       #f3f3f3     */
-
 * {
-  margin: 0px;
-  padding: 0px;
-  background-color: #41b3a3;
-  font-family: 'Fira Code', monospace;
+	margin: 0;
+	padding: 0;
+	background-color: #41b3a3;
+	font-family: monospace;
+}
+.close-navbar {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+    transition: transform 0.3s;
+}
+.close-navbar:hover {
+    transform: scale(1.03);
+}
+.open-navbar {
+	position: relative;
+	display: none;
+	cursor: pointer;
+	margin-left: 20px;;
 }
 
-.but {
-    position: fixed;
-    margin-top: -170px;
-    margin-left: 50px;
-    cursor: pointer;
-    user-select: none;
+.dash {
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
 }
-
-.nav {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    transition: background-color 0.5s;
-    transition-timing-function: ease-out;
+.project-list {
+	display: inline-block;
+	padding: 10px;
+	margin-left: 5px;
+	background-color: none;
+	font-size: 16px;
+    transition: transform 0.3s;
 }
-.navbar {
-    transition: transform 0.5s;
+.project-list:hover {
+    transform: scale(1.05);
 }
-.navbar:hover .nav {
-    transform: scale(1.1);
-    background-color: white;
+li {
+	float: left;
+	list-style-type: none;
 }
-
-.cross {
-    display: none;
-    margin-top: -20px;
-    font-size: 60px;
-    font-weight: 1000;
-}
-
-.calc {
-    display: none;
-    padding: 6px 20px;
-    border: 2px solid white;
-    border-radius: 5px;
+a {
+	text-decoration: none;
     color: white;
-    text-align: center;
-    text-decoration: none;
+	background-color: none;
+	transition: color 0.3s;
 }
-.calc:hover {
+a:hover {
+	color: #fc4445;
+	transform: scale(1.5);
+}
+
+#text {
+    font-size: 60px;
     color: #fc4445;
-    background-color: white;
+	display: grid;
+	justify-content: center;
+	margin: 10% 0;
 }
-
-ul {
-    list-style-type: none;
-}
-
-.list {
-    margin-left: 100px;
-    margin-top: -50px;
-}
-
-h2 {
-    font-size: 70px;
-    color: #fc4445;
-    display: grid;
-    justify-content: center;
-}
-
-.container {
-    margin-top: 200px;
-}
-
-
