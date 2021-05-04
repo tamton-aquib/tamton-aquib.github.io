@@ -16,8 +16,10 @@ button.addEventListener('click', () => {
     face.style.backgroundImage = uri;
 
     getGithub(apiUri).then(data => {
+		console.log(data);
 		let noice = `<h2>${data.login}</h2><br>
 			<h5>name		:	${data.name}</h5><br>
+			<h5>bio		:	${data.bio}</h5><br>
 			<h5>following	:	${data.following}</h5><br>
 			<h5>followers	:	${data.followers}</h5>
 		`

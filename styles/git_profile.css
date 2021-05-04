@@ -15,17 +15,29 @@
     height: 70vh;
     border: 1px solid black;
     border-radius: 7px;
+    box-shadow: 2px 2px #121212;
 }
+
 input {
     padding: 5px;
     margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #9c3abd;
+    color: #ffffff;
 }
 .input {
     display: grid;
     justify-content: center;
 }
+::placeholder {
+    color: #121212;
+}
 button {
     padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #b62e68;
 }
 .button {
     display: grid;
@@ -33,15 +45,19 @@ button {
 }
 
 .face {
+    display: grid;
+    justify-content: center;
     padding: 30px;
 	background-image: linear-gradient(#cc2b5e, #753a88);
-    margin-top: 8px;
+    box-shadow: 2px 2px#121212;
+    margin: 5px auto;
     height: 100px;
     width: 100px;
     border-radius: 50%;
 }
 
 .details {
+    display: grid;
     padding: 30px;
 	float: left;
 	margin-left: 0px;
