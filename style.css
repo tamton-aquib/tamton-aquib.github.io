@@ -50,7 +50,7 @@ header {
 	margin-right: 8px;
 	list-style-type: none;
 }
-li:hover {
+.a:hover {
 	color: #5eabe9;
 	text-decoration: underline;
 	text-decoration-color: var(--red-color);
