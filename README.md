@@ -1,3 +1,4 @@
 # Basic website.
 
-## HackClub Webdev bootcamp.
+[click here.](https://tamton-aquib.github.io)
+
