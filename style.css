@@ -72,6 +72,10 @@ li:hover {
 }
 img {
 	border-radius: 50%;
+	transition: box-shadow 0.2s;
+}
+img:hover {
+	box-shadow: 5px 5px #121212;
 }
 
 .intro-heading {
