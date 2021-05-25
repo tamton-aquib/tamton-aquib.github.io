@@ -1,4 +1,5 @@
 # Basic website.
 
-[click here.](https://tamton-aquib.github.io)
+<!-- [https://tamtonaquib.tk](https://tamtonaquib.tk) -->
+Click here: <a href="https://tamtonaquib.tk" target="_blank">tamtonaquib.tk</a>
 
