@@ -42,6 +42,7 @@ header {
 .navbar-ul {
 	float: right;
 	padding: 10px;
+	cursor: pointer;
 }
 .navbar-li {
 	display: inline-block;
