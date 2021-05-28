@@ -79,8 +79,7 @@ img:hover {
 }
 
 .intro-heading {
-	display: grid;
-	justify-content: center;
+	text-align: center;
 	font-size: 30px;
 	text-decoration: underline;
 	margin-top: 30px;
