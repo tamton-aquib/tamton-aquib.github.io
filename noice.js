@@ -10,19 +10,19 @@ let isToggled = false
 let count = 0;
 
 button.addEventListener('click', () => {
-	if (count > 3) {
+	if (count > 2) {
 		document.querySelector('.heading').innerHTML = "Dont you have anything else to do? 🌝"
 	}
 	let alignment = isToggled ? "left" : "right"
 	if (!isToggled) {
 		noice.style.backgroundColor = light
 		buttonBox.style.textAlign = alignment
+		count++;
 	} else {
 		noice.style.backgroundColor = dark
 		buttonBox.style.textAlign = alignment
 	}
 	isToggled = !isToggled
-	count++;
 })
 
 
