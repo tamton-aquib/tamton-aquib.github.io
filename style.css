@@ -4,10 +4,34 @@
 	padding: 0;
 }
 
-.nice {
+.container {
 	text-align: center;
-	min-height: 100vh;
-	margin-top: 25%;
+	justify-content: center;
+	align-items: center;
 	color: #e86671;
+	min-height: 100vh;
+	background-color: #2c2e34;
+	transition: background-color 1s;
 }
 
+.button-box {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 25%;
+	text-align: left;
+	background-color: #e86671;
+	padding: 5px;
+	border-radius: 30px;
+	transition: text-align 1s;
+}
+.nice-box {
+	color: black;
+}
+
+.button {
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+}
