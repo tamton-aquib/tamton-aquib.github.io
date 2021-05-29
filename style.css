@@ -22,11 +22,11 @@
 	width: 25%;
 	right: 0;
 	min-height: 10vh;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: 25%;
 	text-align: left;
 	background-color: #e86671;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 50px;
 }
 .nice-box {
