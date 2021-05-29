@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+.heading {
+	font-size: 3rem;
+}
+
 .container {
 	text-align: center;
 	justify-content: center;
@@ -15,14 +19,15 @@
 }
 
 .button-box {
-	width: 100px;
+	width: 25%;
+	right: 0;
+	min-height: 10vh;
 	margin: 0 auto;
-	margin-top: 25%;
+	margin-top: 50%;
 	text-align: left;
 	background-color: #e86671;
-	padding: 5px;
-	border-radius: 30px;
-	transition: text-align 1s;
+	padding: 10px;
+	border-radius: 50px;
 }
 .nice-box {
 	color: black;
@@ -32,6 +37,6 @@
 	border: none;
 	outline: none;
 	border-radius: 50%;
-	width: 35px;
-	height: 35px;
+	width: 60px;
+	height: 60px;
 }
