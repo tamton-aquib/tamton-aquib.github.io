@@ -1,4 +1,4 @@
 # Basic website.
 
-Click here: [https://tamtonaquib.tk](https://tamtonaquib.tk)
+Click here: [https://tamton-aquib.github.io](https://tamton-aquib.github.io)
 
