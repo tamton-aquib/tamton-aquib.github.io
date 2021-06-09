@@ -1,6 +1,7 @@
 :root {
 	--dark: #282c34;
 	--fore: #e86671;
+	--light: #cccccc;
 }
 
 .App {
