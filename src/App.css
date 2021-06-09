@@ -1,0 +1,16 @@
+:root {
+	--dark: #282c34;
+	--fore: #e86671;
+}
+
+.App {
+	min-height: 100vh;
+	overflow: hidden;
+	background-color: var(--dark);
+	color: #abb2bf;
+}
+
+.nice {
+	margin-top: 30vh;
+	text-align: center;
+}

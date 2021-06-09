@@ -1,4 +1,5 @@
-# Basic website.
+# tamton-aquib.github.io
 
-Click here: [https://tamton-aquib.github.io](https://tamton-aquib.github.io)
+A simple website made for fun.
+https://tamtonaquib.tk
 
