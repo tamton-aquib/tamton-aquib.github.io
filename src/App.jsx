@@ -9,7 +9,7 @@ function App() {
 		<div className="App">
 			<Header />
 			<h1 className="nice">
-				Sample Text here.
+				Sample test Text here.
 			</h1>
 		</div>
 	)
