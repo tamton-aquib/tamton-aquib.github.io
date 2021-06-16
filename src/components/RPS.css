@@ -13,7 +13,9 @@
 .heading {
 	position: absolute;
 	color: var(--fg);
-	text-decoration: underline;
+	left: 50%;
+    transform: translate(-50%, 0);
+    text-decoration: underline;
 	margin-top: 100px;
 }
 

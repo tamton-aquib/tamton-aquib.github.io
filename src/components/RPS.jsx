@@ -6,16 +6,21 @@ function RPS() {
 	const [choices, setChoices] = useState({ player: "", comp: "" })
 
 	const compareChoices = (pc, cc) => {
-		if (pc == "rock" && cc == "paper") return false
-		else if (pc == "rock" && cc == "scissor") return true
-		else if (pc == "rock" && cc == "rock") return "Tie"
-		else if (pc == "paper" && cc == "rock") return true
-		else if (pc == "paper" && cc == "paper") return "Tie"
-		else if (pc == "paper" && cc == "scissor") return false
-		else if (pc == "scissor" && cc == "rock") return false
-		else if (pc == "scissor" && cc == "paper") return true
-		else if (pc == "scissor" && cc == "scissor") return "Tie"
-		else return "Invalid"
+		console.log(pc[0], cc[0])
+		switch (pc[0] + cc[0]) {
+			case "rr":
+			case "pp":
+			case "ss":
+				return "Tie"
+			case "rp":
+			case "ps":
+			case "sr":
+				return false
+			case "pr":
+			case "sp":
+			case "rs":
+				return true
+		}
 	}
 
 	const getText = (e) => {
