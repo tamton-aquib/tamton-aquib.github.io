@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+import './Header.css'
 
 function Header() {
 	return (
@@ -9,19 +11,19 @@ function Header() {
 			<nav className="navbar">
 				<ul className="navbar-ul">
 					<li className="navbar-li">
-						<a href="#">
+						<Link to="/">
 							<img className="navbar-img" src="https://img.icons8.com/bubbles/50/fa314a/home-page.png" />
-						</a>
+						</Link>
 					</li>
 					<li className="navbar-li">
-						<a href="#">
+						<Link to="/about">
 							<img className="navbar-img" src="https://img.icons8.com/bubbles/50/000000/about.png" />
-						</a>
+						</Link>
 					</li>
 					<li className="navbar-li">
-						<a href="#">
+						<Link to="contact">
 							<img className="navbar-img" src="https://img.icons8.com/clouds/100/fa314a/phone.png" />
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</nav>

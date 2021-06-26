@@ -1,17 +1,24 @@
 import React from 'react'
 import './App.css'
 import Header from './components/Header.jsx'
-import './components/Header.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import About from './components/About'
+import Home from './components/Home'
+import Contact from './components/Contact.jsx'
 
 function App() {
 
 	return (
-		<div className="App">
-			<Header />
-			<h1 className="nice">
-				Sample Text here.
-			</h1>
-		</div>
+		<>
+			<Router>
+				<Header />
+				<div className="App">
+					<Route path="/" exact component={Home} />
+					<Route path="/about" component={About} />
+					<Route path="/contact" component={Contact} />
+				</div>
+			</Router>
+		</>
 	)
 }
 
