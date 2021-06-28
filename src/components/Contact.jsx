@@ -7,26 +7,17 @@ const About = () => {
 		<ul className="social_links_ul">
 			<li className="social_links_li">
 				<a target="_blank" href="https://discord.com/users/845674119391477820">
-					<img
-						src="/images/discord.svg"
-						width="40"
-					/>
+					<img src="https://img.icons8.com/bubbles/50/000000/discord.png" />
 				</a>
 			</li>
 			<li className="social_links_li">
 				<a target="_blank" href="https://github.com/tamton-aquib">
-					<img
-						src="/images/github.png"
-						width="45"
-					/>
+					<img src="https://img.icons8.com/bubbles/50/000000/github.png" />
 				</a>
 			</li>
 			<li className="social_links_li">
 				<a target="_blank" href="https://twitter.com/tamton_aquib">
-					<img
-						src="https://img.icons8.com/color/50/000000/twitter-circled.png"
-						width="45"
-					/>
+					<img src="https://img.icons8.com/bubbles/50/000000/twitter-circled.png" />
 				</a>
 			</li>
 			<li className="social_links_li">
