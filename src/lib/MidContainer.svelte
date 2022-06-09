@@ -2,29 +2,27 @@
 </script>
 
 <div class="card">
-	<div class="card_content">
-		<i class="fa fa-warning" />
-		<span class="card_heading">Work In Progress</span>
-		<i class="fa fa-warning" />
-	</div>
+    <i class="fa fa-warning" />
+    <span class="heading">Work In Progress</span>
+    <i class="fa fa-warning" />
 </div>
 
 <style>
-	.card {
-		position: relative;
-		width: 67%;
-		height: 200px;
-		margin: 0 auto;
-		background-color: #29343d;
-		border-radius: 10px;
-	}
-	.card_heading {
-		font-size: 1rem;
-		text-decoration: underline;
-		margin-top: 50px;
-	}
-
-	.fa-warning {
-		color: #e0af68;
-	}
+    .card {
+        background-color: #29343d;
+        width: 400px;
+        height: 10rem;
+        border-radius: 8px;
+    }
+    .heading {
+        text-decoration: underline;
+    }
+    .fa-warning {
+        color: #e0af68;
+    }
+    @media only screen and (max-width: 600px) {
+        .card {
+            width: 75%;
+        }
+    }
 </style>

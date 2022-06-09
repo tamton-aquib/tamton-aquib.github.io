@@ -1,36 +1,32 @@
 <script>
 </script>
 
-<main>
-	<div class="container">
-		<ul class="social-ul">
-			<li class="social-li">
-				<i class="fa fa-github" />
-			</li>
+<footer>
+    <ul class="social-ul">
+        <li class="social-li">
+            <i class="fa fa-github" />
+        </li>
 
-			<li class="social-li">
-				<i class="fab fa-discord" />
-			</li>
-			<li class="social-li">
-				<i class="fa fa-twitter" />
-			</li>
-		</ul>
-	</div>
-</main>
+        <li class="social-li">
+            <i class="fab fa-discord" />
+        </li>
+
+        <li class="social-li">
+            <i class="fa fa-twitter" />
+        </li>
+    </ul>
+</footer>
 
 <style>
-	.container {
-		text-align: center;
-		position: absolute;
-		width: 100%;
-		bottom: 2rem;
-		font-size: 1.3rem;
-		left: 0;
-		margin-left: 0;
-	}
-	.social-ul {
-		display: flex;
-		list-style-type: none;
-		justify-content: space-evenly;
-	}
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px;
+    }
 </style>
