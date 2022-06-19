@@ -1,4 +1,5 @@
-# tamton-aquib.github.io
+# Personal site
 
-checkout the site: https://tamton-aquib.github.io
+> Checkout: https://tamton-aquib.github.io
 
+> Made with: [solidjs](https://www.solidjs.com/)
