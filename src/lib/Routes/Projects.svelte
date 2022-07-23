@@ -27,6 +27,11 @@
             description: "A nice that waddles arbitrarily in nvim.",
             link: "https://github.com/tamton-aquib/nice.nvim",
         },
+        {
+            title: "bruh.nvim",
+            description: "A bruh that waddles arbitrarily in nvim.",
+            link: "https://github.com/tamton-aquib/nice.nvim",
+        },
     ];
 </script>
 
@@ -36,6 +41,4 @@
 {/each}
 
 <style>
-    .project-container {
-    }
 </style>

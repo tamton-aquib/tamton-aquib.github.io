@@ -9,10 +9,10 @@
     <h1 class="logo">
         T<span class="span_logo">@</span>J
     </h1>
-    <ul class="list">
-        <li class="list_items" on:click|preventDefault={setPage}>Home</li>
-        <li class="list_items" on:click|preventDefault={setPage}>Blog</li>
-        <li class="list_items" on:click|preventDefault={setPage}>Projects</li>
+    <ul>
+        <li on:click|preventDefault={setPage}>Home</li>
+        <li on:click|preventDefault={setPage}>Blog</li>
+        <li on:click|preventDefault={setPage}>Projects</li>
     </ul>
 </div>
 
@@ -35,17 +35,18 @@
     .span_logo {
         color: #c8555a;
     }
-    .list {
+    ul {
         display: flex;
         padding: 10px;
         padding-inline: 10px;
         padding-left: 15px;
+        list-style: none;
     }
-    .list_items {
+    li {
         padding-left: 15px;
         cursor: pointer;
     }
-    .list_items:hover {
+    li:hover {
         text-decoration: underline;
     }
 </style>

@@ -19,3 +19,10 @@
 <div class="container">
     <svelte:component this={getComponent()} />
 </div>
+
+<style>
+    .container {
+        height: 85vh;
+        overflow: auto;
+    }
+</style>
