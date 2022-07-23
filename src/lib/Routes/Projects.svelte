@@ -30,16 +30,12 @@
     ];
 </script>
 
-<div class="project-container">
-    <h1>Projects!</h1>
-    {#each cards as card}
-        <Card {card} />
-    {/each}
-</div>
+<h1>Projects!</h1>
+{#each cards as card}
+    <Card {card} />
+{/each}
 
 <style>
     .project-container {
-        height: 80vh;
-        overflow-y: scroll;
     }
 </style>

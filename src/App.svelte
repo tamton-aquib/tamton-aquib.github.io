@@ -32,5 +32,7 @@
         background-color: #1a2026;
         color: #9ce5c0;
         min-height: 100vh;
+        height: 80vh;
+        overflow-y: scroll;
     }
 </style>
