@@ -19,6 +19,11 @@
         padding: 0;
         margin: 0;
         overflow: hidden;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+    :global(*::-webkit-scrollbar) {
+        display: none;
     }
 
     main {

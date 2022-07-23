@@ -40,7 +40,6 @@
     }
     .list_items {
         padding-left: 15px;
-        /* font-size: 1.1rem; */
         cursor: pointer;
     }
     .list_items:hover {

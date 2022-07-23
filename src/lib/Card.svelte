@@ -20,6 +20,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-top: 15px;
     }
 
     .card-title,
