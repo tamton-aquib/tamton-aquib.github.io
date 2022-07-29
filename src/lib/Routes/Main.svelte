@@ -2,13 +2,13 @@
     import { page } from "../Store.js";
     import Home from "./Home.svelte";
     import Blog from "./Blog.svelte";
-    import Projects from "./Projects.svelte";
+    import Contacts from "./Contacts.svelte";
     import NotFound from "./NotFound.svelte";
 
     const pages = {
         home: Home,
         blog: Blog,
-        projects: Projects,
+        contacts: Contacts,
     };
 
     const getComponent = function () {

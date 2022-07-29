@@ -12,7 +12,7 @@
     <ul>
         <li on:click|preventDefault={setPage}>Home</li>
         <li on:click|preventDefault={setPage}>Blog</li>
-        <li on:click|preventDefault={setPage}>Projects</li>
+        <li on:click|preventDefault={setPage}>Contacts</li>
     </ul>
 </div>
 
@@ -31,6 +31,12 @@
     }
     .logo {
         padding: 10px;
+        padding-left: 15px;
+        transition: transform 0.5s, color 0.8s;
+    }
+    .logo:hover {
+        transform: scale(1.05);
+        color: #ffffff;
     }
     .span_logo {
         color: #c8555a;

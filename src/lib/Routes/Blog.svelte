@@ -21,7 +21,7 @@
     ];
 </script>
 
-<h1>Blog items</h1>
+<h1><u>Blog items</u></h1>
 {#each cards as card}
     <Card {card} />
 {/each}

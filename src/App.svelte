@@ -1,13 +1,13 @@
 <script lang="ts">
     import Header from "./lib/Header.svelte";
-    import Footer from "./lib/Footer.svelte";
+    // import Footer from "./lib/Footer.svelte";
     import Main from "./lib/Routes/Main.svelte";
 </script>
 
 <main>
     <Header />
     <Main />
-    <Footer />
+    <!-- <Footer /> -->
 </main>
 
 <style>
