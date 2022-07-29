@@ -1,5 +1,5 @@
-# tamton-aquib.github.io
+# Test site
 
-A simple website made for fun.
-https://tamton-aquib.tk
-
+- The colors and stuff where inspired from: [Javacafe.github.io](https://gs.is-a.dev/)
+- This site is written in svelte.
+- visit: https://tamton-aquib.tk
