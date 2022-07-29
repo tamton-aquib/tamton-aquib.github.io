@@ -37,6 +37,7 @@
     .logo:hover {
         transform: scale(1.05);
         color: #ffffff;
+        cursor: pointer;
     }
     .span_logo {
         color: #c8555a;
