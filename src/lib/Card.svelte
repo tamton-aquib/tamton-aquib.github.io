@@ -17,9 +17,6 @@
         margin: 0 auto;
 
         border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         margin-top: 25px;
         box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
             0px 9px 46px 8px rgba(0, 0, 0, 0.12),
@@ -29,5 +26,9 @@
     .card-title,
     .card-desc {
         padding: 20px;
+    }
+    .card-desc {
+        background-color: red;
+        text-align: left;
     }
 </style>

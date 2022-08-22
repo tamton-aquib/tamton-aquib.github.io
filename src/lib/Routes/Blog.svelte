@@ -22,12 +22,18 @@
 </script>
 
 <h1><u>Blog items</u></h1>
-{#each cards as card}
-    <Card {card} />
-{/each}
+<div class="blog_container">
+    {#each cards as card}
+        <Card {card} />
+    {/each}
+</div>
 
 <style>
     h1 {
         margin-bottom: 20px;
+    }
+
+    .blog_container {
+        margin-bottom: 80px;
     }
 </style>
