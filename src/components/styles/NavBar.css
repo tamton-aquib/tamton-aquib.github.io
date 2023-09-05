@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+
+    box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0px 9px 46px 8px rgba(0, 0, 0, 0.12),
+        0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+
+    background-color: var(--secondary-background);
+}
+
+.navbar__logo {
+    font-size: 1.8rem;
+    font-weight: 650;
+    margin: 0;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar__redpart {
+    color: #c8555a;
+}
+
+.navbar__right {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 16px;
+    padding-right: 8px;
+}
+
+.navbar__items {
+    padding-inline: 10px;
+    text-decoration: none;
+}
+a.navbar__items:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

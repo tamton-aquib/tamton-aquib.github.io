@@ -1,0 +1,34 @@
+#root {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen,  "Open Sans", "Helvetica Neue", sans-serif;
+    --bg: #1a2026;
+    --fg: #9ce5c0;
+    --secondary-background: #29343c;
+    background-color: var(--bg);
+    color: var(--fg);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.App {
+    text-align: center;
+    margin: 0 auto;
+    user-select: none;
+}
+
+a.navbar__items:visited {
+    text-decoration: none;
+    color: var(--fg);
+}
+
+.score {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    margin: 3rem;
+    padding: 5px;
+}
