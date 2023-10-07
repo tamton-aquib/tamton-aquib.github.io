@@ -16,7 +16,7 @@ export const Home = () => {
                 index++;
                 return s.slice(0, index);
             });
-        }, 250);
+        }, 200);
         return () => clearInterval(timer);
     }, [s]);
 

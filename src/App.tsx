@@ -2,7 +2,7 @@ import './App.css';
 import { NavBar } from "./components/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
-import { Projects } from "./components/Projects";
+// import { Projects } from "./components/Projects";
 import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { NotFound } from "./components/NotFound";
