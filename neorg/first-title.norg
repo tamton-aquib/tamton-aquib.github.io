@@ -1,0 +1,30 @@
+@document.meta
+title: first-title
+description: First post
+authors: taj
+categories:
+created: 2024-02-26T10:29:46+0530
+updated: 2024-05-20T15:53:21+0530
+version: 1.1.1
+@end
+
+** TOC
+   - {** How I made this Blog}
+   - {***  Techs Used}
+   - {*  Todo}
+
+**  How I made this Blog
+    This post is about how I made the blog from scratch without any SSG frameworks.
+
+*** Techs Used
+    - React
+	- Neorg (Neovim)
+
+	@code tsx
+	import { Link, useNavigate } from "react-router-dom";
+	import "./styles/NavBar.css";
+	@end
+
+* Todo
+
+

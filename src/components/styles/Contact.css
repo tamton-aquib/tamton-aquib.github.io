@@ -7,6 +7,13 @@
 	margin-top: 10%;
 }
 
+@media only screen and (max-width: 768px) {
+	.contact__container {
+		display: grid;
+		grid-gap: 3rem;
+	}
+}
+
 .contact__icon {
 	font-size: 3.5rem;
 	color: var(--fg);
