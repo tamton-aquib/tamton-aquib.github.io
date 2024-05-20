@@ -1,14 +1,26 @@
 
 .contact__container {
-    justify-content: space-evenly;
-    margin-top: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-inline: 20%;
+	margin-top: 10%;
 }
 
 .contact__icon {
-    margin-inline: 3rem;
-    font-size: 3rem;
-    padding: 20px 15px;
-    color: var(--fg);
+	font-size: 3.5rem;
+	color: var(--fg);
+}
+.contact__text {
+	color: var(--fg);
+}
+
+
+.fa-discord {
+    transition: transform 0.4s ease-in-out;
+}
+.fa-discord:hover {
+    transform: rotate(360deg);
 }
 
 .fa-github {
@@ -19,13 +31,6 @@
     transform: rotateY(180deg);
 }
 
-.fa-dev {
-    transition: transform 0.2s ease-in-out;
-}
-.fa-dev:hover {
-    transform: scale(1.1);
-}
-
 .fa-twitter {
     transition: transform 0.2s ease-in-out;
 }
@@ -33,10 +38,9 @@
     transform: rotate(20deg);
 }
 
-.fa-discord {
-    transition: transform 0.4s ease-in-out;
+.fa-dev {
+    transition: transform 0.2s ease-in-out;
 }
-.fa-discord:hover {
-    transform: rotate(360deg);
+.fa-dev:hover {
+    transform: scale(1.1);
 }
-

@@ -1,9 +1,15 @@
 #root {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Oxygen,  "Open Sans", "Helvetica Neue", sans-serif;
     --bg: #1a2026;
-    --fg: #9ce5c0;
+    /* --fg: #9ce5c0; */
+	--fg: white;
     --secondary-background: #29343c;
+
+    /* --bg: #e4e4e4; */
+    /* --fg: #4f526a; */
+    /* --secondary-background: #aaaaaa; */
+
     background-color: var(--bg);
     color: var(--fg);
     min-height: 100vh;
@@ -13,7 +19,6 @@
 .App {
     text-align: center;
     margin: 0 auto;
-    user-select: none;
 }
 
 a.navbar__items:visited {

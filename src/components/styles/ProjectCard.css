@@ -52,6 +52,7 @@
     background-color: red;
     text-align: center;
     border-radius: 5px;
+	margin-top: 3px;
 
     background-color: var(--bg);
 }

@@ -12,7 +12,7 @@ export const ProjectCard = ({tags, title, description}: CardLayout) => {
         <div className="projects__card">
             <span className="card__tag-container">
             {
-                typeof tags == "string" ? 
+                typeof tags === "string" ?
                 <small className="card__tag">{tags}</small> :
                 tags.map(tag => <small key={tag} className="card__tag">{tag}</small>)
             }
