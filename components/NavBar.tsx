@@ -9,9 +9,9 @@ const NavBar = () => {
 				<p
 					className="navbar__logo"
 					>
-					T
-					<span className="navbar__redpart">@</span>
-					J
+					tamton
+					<span className="navbar__redpart">.</span>
+					dev
 				</p>
 			</Link>
 			<ul className="navbar__right">
