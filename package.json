@@ -1,22 +1,29 @@
 {
-    "name": "tamton-aquib.github.io",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview",
-        "check": "svelte-check --tsconfig ./tsconfig.json"
-    },
-    "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
-        "@tsconfig/svelte": "^2.0.1",
-        "svelte": "^3.44.0",
-        "svelte-check": "^2.2.7",
-        "svelte-preprocess": "^4.9.8",
-        "tslib": "^2.3.1",
-        "typescript": "^4.5.4",
-        "vite": "^2.9.9"
-    }
+  "name": "tamton-aquib.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
 }

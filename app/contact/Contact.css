@@ -1,0 +1,7 @@
+.rotate__icon {
+    perspective: 1000px;
+    transition: transform 0.5s ease-in-out;
+}
+.rotate__icon:hover {
+    transform: rotateY(180deg);
+}
