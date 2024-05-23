@@ -1,4 +1,4 @@
-export const generateStaticParams = () => {}
+export const generateStaticParams = async () => {}
 
 const BlogPage = () => {
 	return (
