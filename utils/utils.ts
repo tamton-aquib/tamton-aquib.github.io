@@ -4,7 +4,7 @@ import matter, { GrayMatterFile } from "gray-matter";
 type BlogMetaData = {
 	title: string,
 	description: string,
-	createdDate: string,
+	createdDate: Date,
 	slug: string,
 }
 
