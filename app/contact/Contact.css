@@ -1,7 +1,28 @@
-.rotate__icon {
+.discord-icon {
+    transition: transform 0.4s ease-in-out;
+}
+.discord-icon:hover {
+	transform: rotate(360deg);
+}
+
+.github-icon {
     perspective: 1000px;
     transition: transform 0.5s ease-in-out;
 }
-.rotate__icon:hover {
+.github-icon:hover {
     transform: rotateY(180deg);
+}
+
+.twitter-icon {
+    transition: transform 0.3s ease-in-out;
+}
+.twitter-icon:hover {
+	transform: rotate(30deg);
+}
+
+.dev-icon {
+    transition: transform 0.2s ease-in-out;
+}
+.dev-icon:hover {
+	transform: scale(1.1);
 }
