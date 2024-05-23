@@ -1,3 +1,5 @@
+export const generateStaticParams = () => {}
+
 const BlogPage = () => {
 	return (
 		<h1>
