@@ -20,7 +20,7 @@ const BlogList = () => {
 				return (
 					<Link key={blog.slug} href={`blog/${blog.slug}`}>
 						<div className="flex flex-col p-8 m-2 ml-[15%] mr-[15%] align-self-center blog-card">
-							<div className="text-sm mb-2">{formattedDate}</div>
+							<div className="text-sm mb-2 italic">{formattedDate}</div>
 							<div className="text-xl font-bold">{blog.title}</div>
 							<div className="text-sm">{blog.description}</div>
 						</div>

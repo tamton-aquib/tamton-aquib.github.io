@@ -19,7 +19,10 @@ const BlogPage = ({ params }: Props) => {
 
 	return (
 		<main className="ml-[15%] mr-[15%]">
-			<Markdown>{m.content}</Markdown>
+			<h1 className="flex justify-center underline">{m.data.title}</h1>
+			<article className="prose prose-stone dark:prose-invert">
+				<Markdown>{m.content}</Markdown>
+			</article>
 		</main>
 	);
 }

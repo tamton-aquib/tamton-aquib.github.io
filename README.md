@@ -1,5 +1,5 @@
 # Test site
 
-- The colors and stuff where inspired from: [Javacafe.github.io](https://gs.is-a.dev/)
-- This site is written in svelte.
-- visit: https://tamton-aquib.tk
+https://tamton-aquib.dev
+
+Built with Nextjs-14.
