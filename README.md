@@ -1,5 +1,5 @@
 # Test site
 
-https://tamton-aquib.dev
+https://tamton.dev
 
 Built with Nextjs-14.
