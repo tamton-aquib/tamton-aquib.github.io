@@ -3,7 +3,7 @@ import { motion, MotionConfig } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-    const s = "I'm Tamton Aquib. ";
+    const s = " I'm Tamton Aquib. ";
     const [currentText, setCurrentText] = useState("");
 
     let index = 0;
@@ -21,7 +21,7 @@ const Home = () => {
 					return s.slice(0, index);
 				});
 			}, 270);
-		}, 700);
+		}, 900);
 		return () => {
 			clearInterval(intervalId);
 			clearTimeout(timeoutId);
@@ -44,11 +44,11 @@ const Home = () => {
 
 			{
 				currentText &&
-					<MotionConfig transition={{ duration: 0.4 }}>
+					<MotionConfig transition={{ duration: 0.2 }}>
 						<motion.div className="text-[0.002rem] absolute" animate={{y: 50, fontSize: '3rem'}}>
 							{currentText}
 						</motion.div>
-				</MotionConfig>
+					</MotionConfig>
 			}
 
 		</>
