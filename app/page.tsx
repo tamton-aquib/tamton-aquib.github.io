@@ -20,7 +20,7 @@ const Home = () => {
 					index++;
 					return s.slice(0, index);
 				});
-			}, 270);
+			}, 200);
 		}, 900);
 		return () => {
 			clearInterval(intervalId);
