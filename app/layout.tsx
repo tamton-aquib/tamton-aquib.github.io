@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
+// import NavBar from "@/components/NavBar";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -17,8 +17,7 @@ export default function RootLayout({
 	}>) {
 	return (
 		<html lang="en">
-			<body className={nunito.className}>
-				<NavBar />
+			<body className={`min-h-screen flex flex-col justify-center items-center mt-[-10%] ${nunito.className}`}>
 				{children}
 			</body>
 		</html>

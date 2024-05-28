@@ -1,31 +1,58 @@
 "use client";
+import { motion, MotionConfig } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-    const s = "Hello There!";
+    const s = "I'm Tamton Aquib. ";
     const [currentText, setCurrentText] = useState("");
 
     let index = 0;
 
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setCurrentText((prevText) => {
-                if (prevText === s) {
-                    clearInterval(timer);
-                    return prevText;
-                }
-                index++;
-                return s.slice(0, index);
-            });
-        }, 200);
-        return () => clearInterval(timer);
-    }, [s]);
+	useEffect(() => {
+		let intervalId: any;
+		const timeoutId = setTimeout(() => {
+			intervalId = setInterval(() => {
+				setCurrentText((prevText) => {
+					if (prevText === s) {
+						clearInterval(intervalId);
+						return prevText;
+					}
+					index++;
+					return s.slice(0, index);
+				});
+			}, 270);
+		}, 700);
+		return () => {
+			clearInterval(intervalId);
+			clearTimeout(timeoutId);
+		}
+	}, [s]);
 
-    return (
-        <div className="flex justify-center items-center mt-[10%] text-7xl">
-			{currentText}
-		</div>
-    );
+	return (
+		<>
+
+			{
+				currentText ?
+					<motion.div className="text-3xl flex justify-center" animate={{y: -30}}>
+						Hello There!
+					</motion.div>
+					:
+					<div className="text-3xl flex justify-center">
+						Hello There!
+					</div>
+			}
+
+			{
+				currentText &&
+					<MotionConfig transition={{ duration: 0.4 }}>
+						<motion.div className="text-[0.002rem] absolute" animate={{y: 50, fontSize: '3rem'}}>
+							{currentText}
+						</motion.div>
+				</MotionConfig>
+			}
+
+		</>
+	);
 }
 
 export default Home;
