@@ -1,14 +1,19 @@
 "use client";
+
 import { motion, MotionConfig } from "framer-motion";
 import { useEffect, useState } from "react";
+import SideBar from "@/components/SideBar";
 
 const Home = () => {
     const s = " I'm Tamton Aquib. ";
     const [currentText, setCurrentText] = useState("");
+	const [showSideArrow, setShowSideArrow] = useState(false);
 
     let index = 0;
 
 	useEffect(() => {
+		const sidebarShowArrowId = setTimeout(() => setShowSideArrow(true), 3500);
+
 		let intervalId: any;
 		const timeoutId = setTimeout(() => {
 			intervalId = setInterval(() => {
@@ -21,10 +26,11 @@ const Home = () => {
 					return s.slice(0, index);
 				});
 			}, 200);
-		}, 900);
+		}, 300);
 		return () => {
 			clearInterval(intervalId);
 			clearTimeout(timeoutId);
+			clearTimeout(sidebarShowArrowId);
 		}
 	}, [s]);
 
@@ -32,15 +38,15 @@ const Home = () => {
 		<>
 
 			{
-				currentText ?
-					<motion.div className="text-3xl flex justify-center" animate={{y: -30}}>
-						Hello There!
+				showSideArrow &&
+					<motion.div initial={{opacity: 0}} animate={{opacity: 1}}>
+						<SideBar />
 					</motion.div>
-					:
-					<div className="text-3xl flex justify-center">
-						Hello There!
-					</div>
 			}
+
+			<motion.div className="text-3xl" animate={{y: -30}}>
+				Hello There!
+			</motion.div>
 
 			{
 				currentText &&
