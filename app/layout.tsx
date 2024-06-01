@@ -37,7 +37,7 @@ export default function RootLayout({
 	}>) {
 	return (
 		<html lang="en">
-			<body className={`min-h-screen flex flex-col justify-center items-center mt-[-10%] ${nunito.className}`}>
+			<body className={`min-h-screen flex flex-col justify-center items-center mt-[-5%] ${nunito.className}`}>
 				{children}
 			</body>
 		</html>

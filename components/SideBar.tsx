@@ -10,22 +10,21 @@ import { motion } from "framer-motion";
 const SideBar = () => {
 	const [sidebarOpen, setSidebarOpen] = useState(false);
 
-	const toggleSideBar = () => {
-		setSidebarOpen(p => !p);
-	}
+	const toggleSideBar = () => setSidebarOpen(p => !p);
 
 	return (
 		<div className="absolute left-0 flex">
 			{sidebarOpen &&
-				<motion.div className="absolute left-[-100px] mt-[-8rem]" initial={{left: -100}} animate={{left: 0}}>
+				<motion.div className="absolute left-[-100px] mt-[-8rem]" layout initial={{left: -100}} animate={{left: 0}}>
 					<Contact />
 				</motion.div>
 			}
 			<Image
 				onClick={toggleSideBar}
 				src={sidebarOpen ? ArrowPrev : ArrowNext}
+				// src={ArrowNext} // Flip it instead of a different image
 				alt="Arrow"
-				className={`absolute left-0 w-[50px] h-[50px] mt-10 cursor-pointer z-888 ${sidebarOpen && 'ml-[8rem]'}`}
+				className={`absolute left-0 w-[50px] h-[50px] mt-10 cursor-pointer z-888 ${sidebarOpen && 'ml-[8rem] rotate-y-180'}`}
 			/>
 		</div>
 	)
